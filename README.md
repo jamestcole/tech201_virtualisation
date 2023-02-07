@@ -48,8 +48,74 @@ For example how powerful a machine do we need to conduct a task. do we need cert
 
 App 1 require version 1.1 - App2 needs version 1.4, App1 needs a program and that program conflicts with the program that App2 needs.
 
+### Installing ruby
+- ruby is a high level language
+- Download ruby from their website
+- run git bash as administrator `ruby --version` to check it is installed
+
+### Installing vagrant 
+- use windows features to ensure Windows Hyperviser Platform and Virtual Machine Platform are active
+- make sure Hyper-V is not active
+
+### Using vagrant
+- navigate to your folder using `cd /c/folder` in gitbash
+- use `ls` to give status
+- should contain files , readme etc
+
+```vagrant init ubuntu/xenial64```
+
+- your vagrant file should now be with other github files
+
+- this starts the vagrant vm
+
+```vagrant up```
+
+- this will connect to the virtual machine
+
+`vagrant ssh`
+
+
+- to update vagrant
+
+`vagrant reload`
+
+- shows hidden files and folders
+
+`ls -a`
+
+- sudo (super user)
+- apt-get(to get something from internet)
+- update (updates the machine)
+- -y (used to automate questions)
+- sudo apt-get update -y
 
 
 
 
+### while in virtual machine
+- to confirm virtual machine has access to the internet
+
+`sudo apt-get install nginx -y`
+
+- cleans the screen
+
+`clear`
+
+- Must start system after downloading it 
+
+`sudo systemctl start nginx`
+
+- check the system is working
+`sudo systemct1 status nginx`
+
+- to give virtual machine an IP, in vagrant file below box command
+
+`config.vm.network "private_network", ip:"192.168.10.100"`
+
+- to exit virtual machine
+
+`exit`
+
+
+### in vagrant system
 mores
