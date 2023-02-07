@@ -38,4 +38,18 @@ Cost is often overlooked. we need to make sure the company is being as efficient
 
 For example how powerful a machine do we need to conduct a task. do we need certain servers running.
 
-more
+## Dev Environments
+### what makes a good dev environment
+- user freindly fast and robust environment.
+- It should be easy to update and change.
+- It should match the production environment as closely as possible
+- It should be the same for everyone everywhere
+- It should support one application
+
+App 1 require version 1.1 - App2 needs version 1.4, App1 needs a program and that program conflicts with the program that App2 needs.
+
+
+
+
+
+mores
