@@ -3,11 +3,20 @@ tech201_virtualisation
 
 ## Devops
 
+- Devolop automation deployment pipeline
+- continuous release cycles
+- automated testing
+- break silos between developers and operators
+
 ## Infrastructure and architecture
 
-Physical computers act as servers for the public, large scale datacenters.
-Large scale of these facilities economises on cost, economies of scale achieved.
-High security for the datacenters ensure that customers data is safe.
+
+### Cloud DataCenters
+
+- Physical computers act as servers for the public, large scale datacenters.
+- Large scale of these facilities economises on cost, economies of scale achieved.
+- Datacenter responsible for security, cooling infrastructur, carbon ofset, disposal of old hardware.
+- High security for the datacenters ensure that customers data is safe.
 
 ### Ease of use
 other teams ae going to use he tools we create. Theywont use them if they are not user freindly.
