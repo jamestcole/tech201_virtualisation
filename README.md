@@ -63,6 +63,7 @@ App 1 require version 1.1 - App2 needs version 1.4, App1 needs a program and tha
 - use `ls` to give status (lower(L) not 1)
 - should contain files , readme etc
 
+
 ```vagrant init ubuntu/xenial64```
 
 - your vagrant file should now be with other github files
@@ -107,7 +108,7 @@ App 1 require version 1.1 - App2 needs version 1.4, App1 needs a program and tha
 `sudo systemctl start nginx`
 
 - check the system is working
-`sudo systemct1 status nginx`
+`sudo systemctl status nginx`
 
 - to give virtual machine an IP, in vagrant file below box command
 
@@ -198,6 +199,55 @@ NEVER DO THIS `rm rf` WILL DELETE ENVIRONMENT
 
 `ls file*` look in file
 
+### Linux Permissions
+- r is read
+- w is write
+- x is execute
+
+Owner -rwx  Group -rwx Others/All -r
+`chmod` change modbits , ie - change permissions
+`sudo chmod` means superuserdo, it changes permissions
+
+`chmod u-x testfile.txt` giving permission to users
+`sudo chmod 777 testfile.txt` give permission to all users
+
+setting Read = 0 , Write = 0 , Execute - 0
+Binary values: read =4 write -2 execute - 1
+
+the total is 7 hence 777 for each group
+755 would mean user can do everything group and other can read and execute
+764 would mean user can do everything , group can read and write and other can read only
+
+`ps` means processes 
+`ps aux` to see processes of the entire system
+
+`sleep 120 &` dummy process, num for 120 seconds 
+`kill -9 2210` get rid of process that wont close
+
+`sudoapt get update`
+
+`tree` shows tree of your file / directory
 
 
+## To set up node.js app
+once the vagrant environment has been set up and entered with
+make sure you use `vagrant up` first if you have not started virtualbox
+
+`vagrant ssh` in git-bash to enter vm
+
+`vagrant status` to check status
+
+`sudo apt-get update`
+this updates
+
+`sudo apt-get install nginx -y`
+to install nginx web server
+`Connection to 127.0.0.1 closed by host` , return something like this
+
+
+`sudo systemctl start nginx`
+
+to start the system after downloading it
+
+`sudo apt-get upgrade -y`
 
