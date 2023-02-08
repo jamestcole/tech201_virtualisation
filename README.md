@@ -127,31 +127,77 @@ in vagrant@ubuntu-xenial
 `uname` # Linux
 flags
 `uname -a`
+
 `uname --all`
+
 `uname -s` #Linux
+
 `uname -r`
+
 `uname -m`
+
 `uname -i` #x86_64
+
 `uname -o`
+
 `uname -si`#Linux x86_64
+
 `ls -a` # bash history logout files cache
+
 `cd .ssh` # go into .ssh
+
 `cd ../..` go two files back
+
 `cd ..` go file back
+
 `cd /` go root , home
+
 `cd ~` go home
+
 `ls -l` gives paths
+
 `cd test_dir` #relative path
+
 `cd` #absolute path
+
 `nano myfile.txt` open nano with name provided
+
 `ls` #shows what is in folder
+
 `mkdir new_folder` makes new folder in linux
+
 `mkdir "folder with spaces"` for folder with spaces
+
 `cp myfile.txt copied_file.txt`
+
 `cat copiedfile.txt` shows file
+
 `cp myfile.txt new_folder/copied_myfile.txt`
+
 `cd new_folder` go into folder
+
 `cp -rf new_folder new_folder2` r stands for recursive, copy folder and subfolders, f stands for force (do it regardless)
+
 `cd home` also goes home
+
+`rsync -r new_folder new_folder2` makes folder inside folder
+
+`mv my_file2.txt new_folder`
+
+`rm new_file.txt` removes file
+
+`rm -rf new_folder` delete folder (and internal files)
+
+NEVER DO THIS `rm rf` WILL DELETE ENVIRONMENT
+
+`clear` to clear window
+
+`grep test` to search for word test
+
+`grep test *` for folder
+
+`ls file*` look in file
+
+
 
 
