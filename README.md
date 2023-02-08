@@ -56,10 +56,11 @@ App 1 require version 1.1 - App2 needs version 1.4, App1 needs a program and tha
 ### Installing vagrant 
 - use windows features to ensure Windows Hyperviser Platform and Virtual Machine Platform are active
 - make sure Hyper-V is not active
+- make sure virtualbox is properly installed
 
 ### Using vagrant
 - navigate to your folder using `cd /c/folder` in gitbash
-- use `ls` to give status
+- use `ls` to give status (lower(L) not 1)
 - should contain files , readme etc
 
 ```vagrant init ubuntu/xenial64```
@@ -81,7 +82,7 @@ App 1 require version 1.1 - App2 needs version 1.4, App1 needs a program and tha
 
 - shows hidden files and folders
 
-`ls -a`
+`ls -a` this is an L (lowercase)
 
 - sudo (super user)
 - apt-get(to get something from internet)
@@ -119,3 +120,38 @@ App 1 require version 1.1 - App2 needs version 1.4, App1 needs a program and tha
 
 ### in vagrant system
 mores
+
+### vagrant ubuntu xenial:
+in Git-Bash
+in vagrant@ubuntu-xenial
+`uname` # Linux
+flags
+`uname -a`
+`uname --all`
+`uname -s` #Linux
+`uname -r`
+`uname -m`
+`uname -i` #x86_64
+`uname -o`
+`uname -si`#Linux x86_64
+`ls -a` # bash history logout files cache
+`cd .ssh` # go into .ssh
+`cd ../..` go two files back
+`cd ..` go file back
+`cd /` go root , home
+`cd ~` go home
+`ls -l` gives paths
+`cd test_dir` #relative path
+`cd` #absolute path
+`nano myfile.txt` open nano with name provided
+`ls` #shows what is in folder
+`mkdir new_folder` makes new folder in linux
+`mkdir "folder with spaces"` for folder with spaces
+`cp myfile.txt copied_file.txt`
+`cat copiedfile.txt` shows file
+`cp myfile.txt new_folder/copied_myfile.txt`
+`cd new_folder` go into folder
+`cp -rf new_folder new_folder2` r stands for recursive, copy folder and subfolders, f stands for force (do it regardless)
+`cd home` also goes home
+
+
