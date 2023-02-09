@@ -55,6 +55,12 @@ App 1 require version 1.1 - App2 needs version 1.4, App1 needs a program and tha
 - Download ruby from their website
 - run git bash as administrator `ruby --version` to check it is installed
 
+### Installing Virtual Box
+- go to oracle virtual box website
+- make sure snapshot folder is correct in -settings -general -advanced
+
+
+
 ### Installing vagrant 
 - use windows features to ensure Windows Hyperviser Platform and Virtual Machine Platform are active
 - make sure Hyper-V is not active
@@ -92,6 +98,9 @@ App 1 require version 1.1 - App2 needs version 1.4, App1 needs a program and tha
 - update (updates the machine)
 - -y (used to automate questions)
 - sudo apt-get update -y
+
+### Problem shooting vagrant
+[Alt text](C:\Users\James_Cole\.vscode\tech201_virtualisation\tech201_virtualisation\vtx disabled in the bios problem.PNG "a title")
 
 
 
