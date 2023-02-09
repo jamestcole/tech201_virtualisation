@@ -8,8 +8,9 @@ tech201_virtualisation
 - automated testing
 - break silos between developers and operators
 
+
 ## Infrastructure and architecture
-infrastructure and architecture is necessary for the physical components of the cloud.
+infrastructure and architecture is necessary for the physical components that are needed by the cloud.
 
 ### Cloud DataCenters
 
