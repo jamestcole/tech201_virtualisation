@@ -57,7 +57,7 @@ App 1 require version 1.1 - App2 needs version 1.4, App1 needs a program and tha
 
 ### Installing Virtual Box
 - go to oracle virtual box website
-- make sure snapshot folder is correct in -settings -general -advanced
+
 
 
 
@@ -99,17 +99,21 @@ App 1 require version 1.1 - App2 needs version 1.4, App1 needs a program and tha
 - -y (used to automate questions)
 - sudo apt-get update -y
 
-### Problem shooting vagrant
+## Problem shooting vagrant
 ![](vtxdisabledinthebiosproblem.PNG)
 
 
-
-![](vboxpatherror.PNG)
-
-
+### VBOX directory error
+<img src="vboxpatherror.PNG" width="1207" height="117">
 
 
-### while in virtual machine
+Solution:
+- make sure snapshot folder is correct in -settings -general -advanced
+
+
+
+## While in virtual machine
+
 - to confirm virtual machine has access to the internet
 
 `sudo apt-get install nginx -y`
