@@ -10,7 +10,8 @@ tech201_virtualisation
 
 
 ## Infrastructure and architecture
-infrastructure and architecture is necessary for the physical components that are needed by the cloud.
+infrastructure and architecture is importatn for the physical components that are needed by the cloud.
+
 
 ### Cloud DataCenters
 
