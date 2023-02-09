@@ -100,7 +100,7 @@ App 1 require version 1.1 - App2 needs version 1.4, App1 needs a program and tha
 - sudo apt-get update -y
 
 ### Problem shooting vagrant
-![Alt text](C:\Users\James_Cole\.vscode\tech201_virtualisation\tech201_virtualisation\vtxdisabledinthebiosproblem.PNG)
+![Alt text][def]
 
 
 
@@ -262,3 +262,6 @@ to start the system after downloading it
 
 `sudo apt-get upgrade -y`
 
+
+
+[def]: C:\Users\James_Cole\.vscode\tech201_virtualisation\tech201_virtualisation\vtxdisabledinthebiosproblem.PNG
