@@ -100,11 +100,18 @@ App 1 require version 1.1 - App2 needs version 1.4, App1 needs a program and tha
 - sudo apt-get update -y
 
 ## Problem shooting vagrant
+### BIOS Settings Error
+
 ![](vtxdisabledinthebiosproblem.PNG)
+
+Solution: restart computer and change settings in -advanced -advanced -cpu
+
+<img src="cpuconfig.jpg" width="540" height="405">
 
 
 ### VBOX directory error
 <img src="vboxpatherror.PNG" width="1207" height="117">
+
 
 
 Solution:
