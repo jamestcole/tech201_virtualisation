@@ -104,6 +104,10 @@ App 1 require version 1.1 - App2 needs version 1.4, App1 needs a program and tha
 
 
 
+![](vboxpatherror.PNG)
+
+
+
 
 ### while in virtual machine
 - to confirm virtual machine has access to the internet
