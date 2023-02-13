@@ -16,7 +16,27 @@ provision.sh
 Vagrantfile -->
 # Setting up Provision for automation of tasks
 ## Creating provision file
-The provision file can be created in the same directory as your vagrantfile.
+The provision file can be created in the same directory as your vagrantfile. make sure your vagrantfile looks like this:
+
+```
+Vagrant.configure("2") do |config|
+
+  config.vm.box = "ubuntu/xenial64"
+
+  config.ssh.insert_key = false
+
+  config.vm.network "private_network", ip:"192.168.10.100"
+
+  config.vm.box_download_insecure = true
+
+  config.vm.synced_folder "app","/home/vagrant/app"
+
+  #Provisioning
+  config.vm.provision "shell", path: "provision.sh"
+  
+
+end
+```
 
 `provision.sh`
 
@@ -41,7 +61,7 @@ curl -sL https://deb.nodesource.com/setup_6.x |sudo -E bash -
 sudo apt-get install nodejs -y
 
 #install pm2
-sudo npm install pm2 -gnpm install
+sudo npm install pm2 -g
 npm install
 
 #go to app folder
