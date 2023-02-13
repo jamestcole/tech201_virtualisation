@@ -2,7 +2,7 @@
 
 ## Vagrantfile and provision
 
-Use this code in the Vagrantfile, the code should be seperated into two sections, app and database for the the two virtual environments that will be run simultaneously.
+Use this code in the Vagrantfile, the code should be seperated into two sections, app and database for the the two virtual environments that will be run simultaneously. It is important to get the format right with database and app specified at the start of the lines in each block of code. The database download insecure line may not be necessary depending on the machine.
 
 ```
 
