@@ -130,8 +130,6 @@ finally set up the app with the following code.
 
 we should now be able to see our sparta page on port 3000. navigate to http://192.168.10.100:3000/posts in your browser.
 
-![](finalpage.png)
-
 
 
 
