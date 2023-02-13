@@ -36,7 +36,7 @@ end
 
 
 
-The provisionfile should look like this :
+The provisionfile should look like this, -y automatically confirms choices:
 
 ```
 #!/bin/bash
@@ -107,17 +107,19 @@ Run the command to enter the app
 
 `vagrant ssh app`
 
-go to the app folder with app.js in it by useing :
+Navigate to the app folder that contains app.js in it by useing :
 
 `cd app`
 
-`ls` to check files
+To check what is in the folder, app.js should be listed.
 
-create the environment for posts folder
+`ls`
+
+Create the environment for posts folder using mongodb.
 
 `export DB_HOST=mongodb://192.168.10.150:27017/posts`
 
-to check that this is correct use
+to check that this is correct use the following code to give the host address. 
 
 ` printenv DB_HOST ` #mongodb://192.168.10.150:27017/posts
 
