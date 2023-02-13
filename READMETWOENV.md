@@ -34,8 +34,6 @@ end
 
 ```
 
-
-
 The provisionfile should look like this, -y automatically confirms choices:
 
 ```
