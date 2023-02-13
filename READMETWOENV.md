@@ -133,6 +133,15 @@ we should now be able to see our sparta page on port 3000. navigate to http://19
 
 ![](finalpage.png)
 
+### Troubleshooting
+
+If port 3000 is already occupied then it is necassary to find and remove the process responsible and then restart the server.
+
+`sudo lsof -i :3000`
+
+`kill -9 number`
+
+Insert the number where number is written for the port.
 
 
 ### using mongodb
