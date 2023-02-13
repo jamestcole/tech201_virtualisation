@@ -51,6 +51,8 @@ sudo apt-get install nodejs -y
 sudo npm install pm2 -g
 ```
 
+## Configuring the Database
+
 In VS code Terminal, There should be two virtual environments in oracle virtual box as a result, if there is not then this command must be run twice.
 
 `vagrant up`
