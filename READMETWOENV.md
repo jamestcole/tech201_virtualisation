@@ -124,7 +124,7 @@ seed the app
 
 `node seeds/seed.js`
 
-finally set up the app with
+finally set up the app with the following code.
 
 `node app.js`
 
