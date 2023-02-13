@@ -12,5 +12,8 @@ Vagrant.configure("2") do |config|
     database.vm.network "private_network", ip: "192.168.10.150"
     database.vm.box_download_insecure = true
     database.vm.synced_folder "environment", "/home/vagrant/environment"
+    #
+    database.vm.provision "shell", path: "environment/provision.sh", privileged: false
+    #
   end
 end
