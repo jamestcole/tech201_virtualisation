@@ -103,7 +103,7 @@ Then we must restart and enable the database
 
 `sudo systemctl enable mongod`
 
-### App Virtual Machine
+## App Virtual Machine
 
 Run the command to enter the app
 
