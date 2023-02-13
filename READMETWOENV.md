@@ -79,7 +79,7 @@ install database
 
 `sudo apt-get install -y mongodb-org=3.2.20 mongodb-org-server=3.2.20 mongodb-org-shell=3.2.20 mongodb-org-mongos=3.2.20 mongodb-org-tools=3.2.20`
 
-start and enable the database
+Start and enable the database
 
 `sudo systemctl start mongod`
 
@@ -89,7 +89,7 @@ Check the status of the database
 
 `sudo systemctl status mongod`
 
-Open database configuration
+Open database configuration editor to make changes that can let this be accessed. It is important not to change the Ip to this in a production environment because of the security risks of leaving this port open with easy access.
 
 `sudo nano /etc/mongod.conf`
 
