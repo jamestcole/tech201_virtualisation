@@ -128,6 +128,12 @@ finally set up the app with
 
 `node app.js`
 
+we should now be able to see our sparta page on port 3000.
+
+![](finalpage.png)
+
+
+
 
 ## using mongodb
 
