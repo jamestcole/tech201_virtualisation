@@ -1,5 +1,6 @@
 # Running Two Virtual Environments
 
+## Vagrantfile and provision
 
 Use this code in the Vagrantfile, the code should be seperated into two sections, app and database for the the two virtual environments that will be run simultaneously.
 
@@ -92,7 +93,7 @@ Open database configuration
 
 `sudo nano /etc/mongod.conf`
 
-Change bindIp: 127.0.0.1  to bindIp: 0.0.0.0
+Change bindIp: 127.0.0.1  to bindIp: 0.0.0.0 using the commands listed in the program. `CTRL x` to exit and save in the file that is already made.
 
 Then we must restart and enable the database
 
@@ -134,7 +135,7 @@ we should now be able to see our sparta page on port 3000. navigate to http://19
 
 
 
-## using mongodb
+### using mongodb
 
 `export DB_HOST=mongodb://192.168.10.150:27017/posts`
 `printenv DB_HOST` # to print the host
