@@ -34,7 +34,7 @@ end
 
 ```
 
-The provisionfile should look like this, -y automatically confirms choices:
+The provisionfile should look like this, -y automatically confirms choices while sudo stands for substitute user do,  which runs an elevated prompt.
 
 ```
 #!/bin/bash
