@@ -10,9 +10,9 @@ sudo apt-get install python -y
 # reset nginx configuration to produce reverse proxy
 
 #
-#sudo rm /etc/nginx/sites-available/default
-#sudo cp app/reverse_proxy /etc/nginx/sites-available/default
-#sudo systemctl restart nginx -y
+sudo rm /etc/nginx/sites-available/default
+sudo cp app/reverse_proxy /etc/nginx/sites-available/default
+sudo systemctl restart nginx -y
 #
 
 

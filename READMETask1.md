@@ -57,7 +57,7 @@ sudo systemctl enable nginx -y
 
 sudo apt-get install python-software-properties
 #nodejs download
-curl -sL https://deb.nodesource.com/setup_6.x |sudo -E bash -
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get install nodejs -y
 
 #install pm2

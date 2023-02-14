@@ -144,6 +144,10 @@ Solution:
 
 `exit`
 
+ exit and use vagrant 
+ 
+ `reload` 
+ to get vagrant back with new settings
 
 ### in vagrant system
 mores
