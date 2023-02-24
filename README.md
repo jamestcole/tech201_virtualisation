@@ -1,5 +1,5 @@
 # tech201_virtualisation
-tech201_virtualisation including git hook incuding dev
+tech201_virtualisation including git hook incuding dev merge to main
 
 ## Devops
 
