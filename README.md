@@ -1,5 +1,5 @@
 # tech201_virtualisation
-IS changed key it tech201_virtualisation including git hook incuding dev merge to main is total complete
+Today I changed key it tech201_virtualisation including git hook incuding dev merge to main is total complete
 
 ## Devops
 
